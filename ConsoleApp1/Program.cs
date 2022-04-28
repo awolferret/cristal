@@ -13,9 +13,8 @@ namespace ConsoleApp1
             Console.WriteLine($"Вы можете купить {possibleToBuy} кристаллов");
             Console.WriteLine("Сколько вы хотите купить?");
             int buy = Convert.ToInt32(Console.ReadLine());
-            gold =- cristalPrice * buy;
+            gold -= cristalPrice * buy;
             Console.WriteLine($"Вы купили {buy} кристаллов и у вас осталось {gold} рублей");
-
         }
     }
 }
